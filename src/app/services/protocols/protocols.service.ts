@@ -7,6 +7,7 @@ import {
   UnsignedTransaction,
   addSupportedProtocol,
   AeternityProtocol,
+  HarmonyProtocol,
   BitcoinProtocol,
   EthereumProtocol,
   GroestlcoinProtocol,
@@ -51,6 +52,7 @@ export class ProtocolsService {
 
   public addProtocols() {
     addSupportedProtocol(new AeternityProtocol())
+    addSupportedProtocol(new HarmonyProtocol())
     addSupportedProtocol(new BitcoinProtocol())
     addSupportedProtocol(new EthereumProtocol())
     addSupportedProtocol(new GroestlcoinProtocol())

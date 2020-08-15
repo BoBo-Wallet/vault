@@ -33,6 +33,7 @@ export class AccountAddPage {
     private readonly alertController: AlertController
   ) {
     this.protocols = supportedProtocols()
+    console.log(this.protocols)
     this.onSelectedProtocolChange(this.navigationService.getState().protocol || this.protocols[0])
   }
 
