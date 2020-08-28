@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core'
-import { AirGapWallet, UnsignedTransaction } from 'airgap-coin-lib'
+import { AirGapWallet, UnsignedTransaction } from '@bobo-wallet/coin-lib'
 
 import { Secret } from '../../models/secret'
 import { assertNever } from '../../utils/utils'

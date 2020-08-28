@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core'
-import { AirGapWallet } from 'airgap-coin-lib'
+import { AirGapWallet } from '@bobo-wallet/coin-lib'
 
 @Pipe({
   name: 'walletFilter'

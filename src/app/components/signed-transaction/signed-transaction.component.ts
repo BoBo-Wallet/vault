@@ -6,7 +6,7 @@ import {
   ICoinProtocol,
   SignedTransaction,
   UnsignedTransaction
-} from 'airgap-coin-lib'
+} from '@bobo-wallet/coin-lib'
 import BigNumber from 'bignumber.js'
 
 import { ProtocolsService } from '../../services/protocols/protocols.service'

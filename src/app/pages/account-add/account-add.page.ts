@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
 import { ModalController, AlertController } from '@ionic/angular'
-import { ICoinProtocol, supportedProtocols } from 'airgap-coin-lib'
+import { ICoinProtocol, supportedProtocols } from '@bobo-wallet/coin-lib'
 
 import { ErrorCategory, handleErrorLocal } from '../../services/error-handler/error-handler.service'
 import { NavigationService } from '../../services/navigation/navigation.service'

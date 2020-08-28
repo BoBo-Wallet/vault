@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core'
-import { AirGapWallet } from 'airgap-coin-lib'
+import { AirGapWallet } from '@bobo-wallet/coin-lib'
 import { BehaviorSubject, Observable } from 'rxjs'
 
 import { Secret } from '../../models/secret'

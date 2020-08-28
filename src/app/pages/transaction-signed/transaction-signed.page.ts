@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { AirGapWallet } from 'airgap-coin-lib'
+import { AirGapWallet } from '@bobo-wallet/coin-lib'
 
 import { ErrorCategory, handleErrorLocal } from '../../services/error-handler/error-handler.service'
 import { NavigationService } from '../../services/navigation/navigation.service'

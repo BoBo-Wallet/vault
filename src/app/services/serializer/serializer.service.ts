@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core'
-import { IACMessageDefinitionObject, IACMessageType, Serializer } from 'airgap-coin-lib'
-import { DeserializedSyncProtocol, EncodedType, SyncProtocolUtils } from 'airgap-coin-lib/dist/serializer/v1/serializer'
+import { IACMessageDefinitionObject, IACMessageType, Serializer } from '@bobo-wallet/coin-lib'
+import { DeserializedSyncProtocol, EncodedType, SyncProtocolUtils } from '@bobo-wallet/coin-lib/dist/serializer/v1/serializer'
 import BigNumber from 'bignumber.js'
 
 import { parseIACUrl } from '../../utils/utils'
 import { SettingsKey, StorageService } from '../storage/storage.service'
 
-import { MainProtocolSymbols } from 'airgap-coin-lib/dist/utils/ProtocolSymbols'
+import { MainProtocolSymbols } from '@bobo-wallet/coin-lib/dist/utils/ProtocolSymbols'
 
 @Injectable({
   providedIn: 'root'

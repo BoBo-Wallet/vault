@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core'
 import { AlertController, LoadingController } from '@ionic/angular'
-import { AirGapWallet, getProtocolByIdentifier, ICoinProtocol } from 'airgap-coin-lib'
+import { AirGapWallet, getProtocolByIdentifier, ICoinProtocol } from '@bobo-wallet/coin-lib'
 import * as bip39 from 'bip39'
 import { Observable, ReplaySubject } from 'rxjs'
 
@@ -9,8 +9,8 @@ import { ErrorCategory, handleErrorLocal } from '../error-handler/error-handler.
 import { SecureStorage, SecureStorageService } from '../secure-storage/secure-storage.service'
 import { SettingsKey, StorageService } from '../storage/storage.service'
 import { NavigationService } from '../navigation/navigation.service'
-import { ProtocolSymbols } from 'airgap-coin-lib/dist/utils/ProtocolSymbols'
-import { SerializedAirGapWallet } from 'airgap-coin-lib/dist/wallet/AirGapWallet'
+import { ProtocolSymbols } from '@bobo-wallet/coin-lib/dist/utils/ProtocolSymbols'
+import { SerializedAirGapWallet } from '@bobo-wallet/coin-lib/dist/wallet/AirGapWallet'
 
 @Injectable({
   providedIn: 'root'
