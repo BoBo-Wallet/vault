@@ -1,7 +1,7 @@
 import { BigNumber } from 'bignumber.js'
 
 import { AmountConverterPipe } from './amount-converter.pipe'
-import { MainProtocolSymbols } from 'airgap-coin-lib/dist/utils/ProtocolSymbols'
+import { MainProtocolSymbols } from '@bobo-wallet/coin-lib/dist/utils/ProtocolSymbols'
 
 const BN: typeof BigNumber = BigNumber.clone({
   FORMAT: {

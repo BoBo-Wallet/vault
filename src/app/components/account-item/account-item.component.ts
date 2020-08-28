@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core'
-import { AirGapWallet } from 'airgap-coin-lib'
+import { AirGapWallet } from '@bobo-wallet/coin-lib'
 
 @Component({
   selector: 'airgap-account-item',

@@ -1,10 +1,10 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
-import { IACMessageType, Serializer } from 'airgap-coin-lib'
+import { IACMessageType, Serializer } from '@bobo-wallet/coin-lib'
 
 import { UnitHelper } from '../../../../test-config/unit-test-helper'
 
 import { SignedTransactionComponent } from './signed-transaction.component'
-import { MainProtocolSymbols } from 'airgap-coin-lib/dist/utils/ProtocolSymbols'
+import { MainProtocolSymbols } from '@bobo-wallet/coin-lib/dist/utils/ProtocolSymbols'
 
 describe('SignedTransactionComponent', () => {
   let signedTransactionFixture: ComponentFixture<SignedTransactionComponent>

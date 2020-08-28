@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { AirGapWallet, IACMessageDefinitionObject, IACMessageType, IAirGapTransaction, UnsignedTransaction } from 'airgap-coin-lib'
+import { AirGapWallet, IACMessageDefinitionObject, IACMessageType, IAirGapTransaction, UnsignedTransaction } from '@bobo-wallet/coin-lib'
 import * as bip39 from 'bip39'
 
 import { Secret } from '../../models/secret'

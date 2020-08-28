@@ -20,11 +20,11 @@ import {
   EthereumERC20ProtocolConfig,
   getProtocolByIdentifier,
   SignedTransaction
-} from 'airgap-coin-lib'
-import { TezosBTC } from 'airgap-coin-lib/dist/protocols/tezos/fa/TezosBTC'
+} from '@bobo-wallet/coin-lib'
+import { TezosBTC } from '@bobo-wallet/coin-lib/dist/protocols/tezos/fa/TezosBTC'
 
 import { tokens } from './tokens'
-import { SubProtocolSymbols, ProtocolSymbols } from 'airgap-coin-lib/dist/utils/ProtocolSymbols'
+import { SubProtocolSymbols, ProtocolSymbols } from '@bobo-wallet/coin-lib/dist/utils/ProtocolSymbols'
 
 export interface Token {
   symbol: string

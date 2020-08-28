@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core'
 import { AlertController } from '@ionic/angular'
 import { AlertButton } from '@ionic/core'
 import { TranslateService } from '@ngx-translate/core'
-import { AirGapWallet, IACMessageDefinitionObject, IACMessageType, UnsignedTransaction, getProtocolByIdentifier } from 'airgap-coin-lib'
+import { AirGapWallet, IACMessageDefinitionObject, IACMessageType, UnsignedTransaction, getProtocolByIdentifier } from '@bobo-wallet/coin-lib'
 
 import { SerializerService } from '../../services/serializer/serializer.service'
 import { to } from '../../utils/utils'

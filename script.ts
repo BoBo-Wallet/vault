@@ -1,5 +1,5 @@
-import { TezosBTC } from 'airgap-coin-lib/dist/protocols/tezos/fa/TezosBTC'
-import { UnsignedTezosTransaction } from 'airgap-coin-lib/dist/serializer/v1/unsigned-transactions/tezos-transactions.serializer'
+import { TezosBTC } from '@bobo-wallet/coin-lib/dist/protocols/tezos/fa/TezosBTC'
+import { UnsignedTezosTransaction } from '@bobo-wallet/coin-lib/dist/serializer/v1/unsigned-transactions/tezos-transactions.serializer'
 const protocol = new TezosBTC()
 const unsignedTx: UnsignedTezosTransaction = {
   transaction: {
