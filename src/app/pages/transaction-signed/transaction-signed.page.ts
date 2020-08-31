@@ -27,7 +27,7 @@ export class TransactionSignedPage {
 
   constructor(public navigationService: NavigationService) {
     this.interactionUrl = this.navigationService.getState().interactionUrl
-    this.splits = this.interactionUrl.substr('airgap-wallet://?d='.length).split(',')
+    this.splits = this.interactionUrl.substr('bobo-wallet://?d='.length).split(',')
     this.wallets = this.navigationService.getState().wallets
     this.signedTxs = this.navigationService.getState().signedTxs
   }

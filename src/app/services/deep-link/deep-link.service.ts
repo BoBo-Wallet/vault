@@ -18,7 +18,7 @@ export class DeepLinkService {
     @Inject(APP_PLUGIN) private readonly app: AppPlugin
   ) {}
 
-  public sameDeviceDeeplink(url: string = 'airgap-wallet://'): Promise<void> {
+  public sameDeviceDeeplink(url: string = 'bobo-wallet://'): Promise<void> {
     const deeplinkUrl: string = url.includes('://') ? url : serializedDataToUrlString(url)
 
     return new Promise((resolve, reject) => {

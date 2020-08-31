@@ -108,7 +108,7 @@ export class TransactionDetailPage {
 
       const serializedTx: string[] = await this.serializerService.serialize(deserializedTxSigningRequests)
 
-      return `${transactionsWithWallets[0][0].callback || 'airgap-wallet://?d='}${serializedTx.join(',')}`
+      return `${transactionsWithWallets[0][0].callback || 'bobo-wallet://?d='}${serializedTx.join(',')}`
     } else {
       throw new Error('Could not get transaction details')
     }

@@ -27,6 +27,6 @@ export class ShareUrlService {
 
     const serializedTx: string[] = await this.serializerService.serialize([deserializedTxSigningRequest])
 
-    return serializedDataToUrlString(serializedTx, 'airgap-wallet://')
+    return serializedDataToUrlString(serializedTx, 'bobo-wallet://')
   }
 }
